@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: orangered;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 50dvw;
+  text-align: justify;
+}
+
+.space {
+  height: 100dvh;
+  width: 50dvh;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100dvw;
+  background-color: rgba(255, 255, 255, 0.259);
+  backdrop-filter: blur(10px);
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(green, pink);
+}
+
+h3 {
+  color: grey;
+}
